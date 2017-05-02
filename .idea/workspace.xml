@@ -59,7 +59,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/x19de/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -67,6 +67,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EAN13.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/x19de/Barcode/EAN13.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,6 +97,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/x19de/Controller.java" />
         <option value="$PROJECT_DIR$/src/x19de/MainWindow.fxml" />
         <option value="$PROJECT_DIR$/src/x19de/Main.java" />
+        <option value="$PROJECT_DIR$/src/x19de/Barcode/EAN13.java" />
       </list>
     </option>
   </component>
@@ -651,12 +663,12 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1493471314878" duration="4744000" />
       <workItem from="1493720671691" duration="3912000" />
-      <workItem from="1493735013667" duration="125000" />
+      <workItem from="1493735013667" duration="487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10083000" />
+    <option name="totallyTimeSpent" value="10445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -826,6 +838,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/x19de/Barcode/EAN13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
