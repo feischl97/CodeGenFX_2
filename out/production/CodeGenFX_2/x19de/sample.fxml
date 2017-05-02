@@ -2,8 +2,10 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.*?>
 <?import javafx.geometry.Insets?>
+
 <VBox fx:controller="x19de.Controller"
-      xmlns:fx="http://javafx.com/fxml" alignment="center">
+      xmlns:fx="http://javafx.com/fxml" alignment="center"
+      style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;">
 
     <BorderPane.margin>
         <Insets bottom="2.50" left="2.50" right="2.50" top="2.50" />
@@ -15,35 +17,33 @@
 
 
         <top>
+
             <ComboBox fx:id="barcodeTypes"/>
+
         </top>
         <center>
+
             <Pane fx:id="barcodeSettings" BorderPane.alignment="CENTER"
                   prefHeight="200"
                   prefWidth="200" maxWidth="300"
                   style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;">
+
             </Pane>
+
         </center>
         <bottom>
-            <HBox fx:id="generalCtrl" BorderPane.alignment="BOTTOM_CENTER" minHeight="75">
-                <HBox.margin>
-                    <Insets bottom="2.50" left="2.50" right="2.50" top="2.50" />
-                </HBox.margin>
 
-                <Button fx:id="exit" text="Exit">
-                    <Insets bottom="2.50" left="2.50" right="2.50" top="2.50" />
-                </Button>
-                <Button fx:id="export" text="Save As">
-                    <Insets bottom="2.50" left="2.50" right="2.50" top="2.50" />
-                </Button>
-                <Button fx:id="generate" text="Generate">
-                    <Insets bottom="2.50" left="2.50" right="2.50" top="2.50" />
-                </Button>
+            <HBox fx:id="generalCtrl" BorderPane.alignment="BOTTOM_CENTER" minHeight="75">
+
+                <Button fx:id="exit" text="Exit"/>
+                <Button fx:id="export" text="Save As"/>
+                <Button fx:id="generate" text="Generate"/>
+
             </HBox>
+
         </bottom>
     </BorderPane>
 
     <ImageView fx:id="previewBox"
-
                style=" -fx-border-color:black; -fx-border-width: 1; -fx-border-style: solid;"/>
 </VBox>
